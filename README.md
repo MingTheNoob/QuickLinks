@@ -18,6 +18,7 @@ ___
 # Features:
 - Create any prefix and value you want. Default values are applied upon installation. 
 - Use any search engine you want to handle searches for when you don't use a prefix.
+- The QuickLinks backend will work with any custom search engine extension! Add `https://quicklinks.ming.jp.net/search?q=%s&prefix=%v` to the settings if the extension allows. If it doesn't allow, use my extension!
 
 &nbsp;
 ___
