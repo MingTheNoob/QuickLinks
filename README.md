@@ -9,7 +9,7 @@
 ___
 &nbsp;
 
-:warning: Disclaimer: No data is stored on the server. Check the backend source code [here](https://github.com/MingTheNoob/QuickLinksBackend).
+:warning: Disclaimer: No personal data is stored on the server. Only a simple config file is saved to the server. Check the backend source code [here](https://github.com/MingTheNoob/QuickLinksBackend).
 
 &nbsp;
 ___
