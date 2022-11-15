@@ -1,6 +1,6 @@
 {
     "name": "QuickLinks",
-    "version": "1.0",
+    "version": "0.0.1",
     "manifest_version": 2,
     "description": "Web extension that automatically redirects prefixes and values into the associated link or default search engine if no prefix is defined.",
 
