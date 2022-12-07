@@ -2,29 +2,25 @@
     "name": "QuickLinks",
     "version": "0.0.1",
     "manifest_version": 2,
-    "description": "Web extension that automatically redirects prefixes and values into the associated link or default search engine if no prefix is defined.",
-
+    "description": "Quickly access your favorite websites with fast and simple shortcuts.",
     "browser_action": {
-        "default_icon": "icons/icon.png",
-        "default_title": "QuickLinks"
+        "default_icon": "icons/icon48.svg",
+        "default_title": "QuickLinks",
+        "default_popup": "popup.html"
     },
-
     "background": {
-        "scripts": ["js/background.js"]
+        "persistent": false,
+        "scripts": ["background.js"]
     },
-
     "icons": {
-        "48": "icons/icon.png"
+        "16": "icons/icon16.svg",
+        "24": "icons/icon24.svg",
+        "32": "icons/icon32.svg",
+        "48": "icons/icon48.svg",
+        "120": "icons/icon120.svg"
     },
-
-    "permissions": [
-        "search",
-        "storage"
-    ],
-
-    "options_ui": {
-        "page": "index.html",
-        "browser_style": false,
-        "open_in_tab": true
+    "permissions": ["storage", "omnibox"],
+    "omnibox": {
+        "keyword": "ql"
     }
 }
