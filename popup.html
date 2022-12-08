@@ -63,6 +63,8 @@
             justify-content: center;
             margin: 0 5px 28px 20px;
             width: 100%;
+            text-decoration: none;
+            color: #000;
         }
 
         .button:last-child {
@@ -87,18 +89,10 @@
             </div>
         </div>
         <div class="buttons">
-            <div id="btn1" class="button">Report Bug</div>
-            <div id="btn2" class="button button-primary">Website</div>
+            <a href="https://github.com/MingTheNoob/issues/issues" class="button">Report Bug</a>
+            <a href="https://utilities.ming.jp.net/web-tools/extensions/QuickLinks" class="button button-primary">Website</a>
         </div>
     </div>
-    <script>
-        document.getElementById("btn1").addEventListener("click", function() {
-            window.open("https://github.com/MingTheNoob/issues/issues");
-        });
-        document.getElementById("btn2").addEventListener("click", function() {
-            window.open("https://utilities.ming.jp.net/web-tools/extensions/QuickLinks");
-        });
-    </script>
 </body>
 
 </html>
