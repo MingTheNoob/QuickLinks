@@ -1,6 +1,6 @@
 {
     "name": "QuickLinks",
-    "version": "0.0.1",
+    "version": "0.1",
     "manifest_version": 2,
     "description": "Quickly access your favorite websites with fast and simple shortcuts.",
     "browser_action": {
@@ -19,8 +19,14 @@
         "48": "icons/icon48.svg",
         "120": "icons/icon120.svg"
     },
-    "permissions": ["storage", "omnibox"],
+    "permissions": ["omnibox"],
     "omnibox": {
         "keyword": "ql"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{ee42919c-bb89-4f8c-b360-274c8c25b2ee}",
+            "update_url": "https://cdn.ming.jp.net/quicklinks/updates.json"
+        }
     }
 }
