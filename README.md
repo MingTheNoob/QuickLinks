@@ -9,6 +9,8 @@
 ___
 &nbsp;
 
+<img src="https://cdn.ming.jp.net/utilities/web-tools/extensions/quicklinks/imgs/cover.png" alt="QuickLinks Cover">
+
 # Features:
 - Create any prefix and value you want. Default values are applied upon installation.
 
