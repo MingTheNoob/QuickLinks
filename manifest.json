@@ -26,7 +26,7 @@
     "browser_specific_settings": {
         "gecko": {
             "id": "{ee42919c-bb89-4f8c-b360-274c8c25b2ee}",
-            "update_url": "https://cdn.ming.jp.net/quicklinks/updates.json"
+            "update_url": "https://cdn.ming.jp.net/utilities/web-tools/extensions/quicklinks/updates.json"
         }
     }
 }
