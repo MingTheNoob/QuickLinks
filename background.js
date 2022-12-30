@@ -3,7 +3,7 @@ var searchRedditUrl = "https://www.reddit.com/search?q=";
 var githubUrl = "https://github.com/";
 var searchGithubUrl = "https://github.com/search?q=";
 var discordUrl = "https://discord.com/invite/";
-var youtubeUrl = "https://www.youtube.com/channel/";
+var youtubeUrl = "https://www.youtube.com/user/";
 var searchYoutubeUrl = "https://www.youtube.com/results?search_query=";
 var twitterUrl = "https://twitter.com/";
 var searchTwitterUrl = "https://twitter.com/search?q=";
