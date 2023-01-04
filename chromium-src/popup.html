@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickLinks Popup</title>
+    <style>
+        body {
+            align-items: center;
+            display: flex;
+            font-family: "Source Sans Pro", sans-serif;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            background-color: rgb(14, 14, 14);
+            border-radius: 20px;
+            box-shadow: 0 0.4px 3.6px rgba(0, 0, 0, 0.004),
+                0 1px 8.5px rgba(0, 0, 0, 0.01), 0 1.9px 15.7px rgba(0, 0, 0, 0.019),
+                0 3.4px 28.2px rgba(0, 0, 0, 0.03), 0 6.3px 54.4px rgba(0, 0, 0, 0.047),
+                0 15px 137px rgba(0, 0, 0, 0.07);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 375px;
+            height: 300px;
+        }
+
+        .text {
+            box-sizing: border-box;
+            padding: 0 20px 20px;
+            width: 100%;
+        }
+
+        .title {
+            align-items: center;
+            display: flex;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 4px;
+            position: relative;
+            color: rgb(196, 196, 196);
+        }
+
+        .info {
+            color: #949494;
+        }
+
+        .buttons {
+            display: flex;
+            margin-top: 8px;
+            width: 100%;
+        }
+
+        .button {
+            align-items: center;
+            background: #edf1f7;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            height: 50px;
+            justify-content: center;
+            margin: 0 5px 28px 20px;
+            width: 100%;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .button:last-child {
+            margin: 0 20px 20px 5px;
+        }
+
+        .button-primary {
+            background-color: #0060f6;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="text">
+            <div class="title">
+                Welcome to QuickLinks!
+            </div>
+            <div class="info">
+                Quickly access your favorite websites with fast and simple shortcuts.
+                <br>
+                <br>
+                This is still being developed. Follow the website for updates.
+            </div>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/MingTheNoob/QuickLinks/issues" class="button">Report Bug</a>
+            <a href="https://mingsutilities.com/web-tools/extensions/QuickLinks" class="button button-primary">Website</a>
+        </div>
+    </div>
+</body>
+
+</html>
