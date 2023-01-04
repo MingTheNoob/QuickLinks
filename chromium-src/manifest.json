@@ -1,0 +1,26 @@
+{
+    "name": "QuickLinks",
+    "version": "0.1.4",
+    "manifest_version": 3,
+    "description": "Quickly access your favorite websites with fast and simple shortcuts.",
+    "browser_action": {
+        "default_icon": "icons/icon48.svg",
+        "default_title": "QuickLinks",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "icons/icon16.svg",
+        "24": "icons/icon24.svg",
+        "32": "icons/icon32.svg",
+        "48": "icons/icon48.svg",
+        "120": "icons/icon120.svg"
+    },
+    "permissions": ["omnibox"],
+    "omnibox": {
+        "keyword": "ql"
+    }
+}
